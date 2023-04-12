@@ -1,0 +1,22 @@
+{
+  "name": "professional_readme_generator",
+  "version": "1.0.0",
+  "description": "A simple command line application to quickly generate a quality README.md file.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JTruehitt/Professional_README_Generator.git"
+  },
+  "author": "Jon Truehitt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JTruehitt/Professional_README_Generator/issues"
+  },
+  "homepage": "https://github.com/JTruehitt/Professional_README_Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
