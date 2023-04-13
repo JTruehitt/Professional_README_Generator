@@ -96,8 +96,8 @@ function generateMarkdown(data) {
     markdown += `
   ## Usage
   ${data.usage}
-
   `;
+
   if (data.credits.length !== 0)
     markdown += `
   ## Credits
