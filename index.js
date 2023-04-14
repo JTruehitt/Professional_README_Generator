@@ -19,7 +19,7 @@ const questions = [
     name: "description",
     type: "input",
     message:
-      "Please provide a short description explaining the what, why, and how of your project",
+      "Please provide a short description explaining the what, why, and how of your project.",
     validate: function (response) {
       if (response.length === 0)
         return console.log("Please enter a valid project title.");
@@ -50,10 +50,10 @@ const questions = [
       "GNU AGPLv3",
       "GNU GPLv3",
       "GNU LGPLv3",
-      "Mozilla Public License 2.0",
-      "Apache License 2.0",
-      "MIT License",
-      "Boost Software License 1.0",
+      "Mozilla Public 2.0",
+      "Apache 2.0",
+      "MIT",
+      "Boost Software 1.0",
       "The Unlicense",
     ],
   },
@@ -71,7 +71,7 @@ const questions = [
   {
     name: "tests",
     type: "input",
-    message: "If you have written any tests for your app, please put them here",
+    message: "If you have written any tests for your app, please put them here.",
   },
   {
     name: "github",
