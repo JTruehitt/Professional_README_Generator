@@ -10,6 +10,8 @@
   ## Link to Video Walkthrough
   https://drive.google.com/file/d/1iJqJT7H8f6pTTdT095PL1A8qpK2woPbX/view
   
+  <iframe src="https://drive.google.com/file/d/1iJqJT7H8f6pTTdT095PL1A8qpK2woPbX/preview" width="640" height="480"></iframe>
+  
   ## Table of Contents
   
   * [Installation](#installation)
