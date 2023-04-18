@@ -1,36 +1,35 @@
-# Professional_README_Generator
 
-## Description
+  ![Badge for license type](https://img.shields.io/badge/license-MIT-green)
 
-## Walkthrough Video of Application
 
-## User Story
+  # Professional README Generator
 
-- AS A developer
-- I WANT a README generator
-- SO THAT I can quickly create a professional README for a new project
+  ## Description
+   This is a simple Command Line Interface that transforms user input into an organized and professional markdown file. This is a great way to save time on each project without sacrificing the quality of the README file. The application was built with node.js, and utilizes the inquirer npm package. 
+  
+  ## Table of Contents
+  
+  * [Installation](#installation)
+  
+  * [Usage](#usage)
+  
+  * [License](#license)
+  
+  * [Questions](#questions)
+  
+  ## Installation
+  npm i
+  
+  ## Usage
+  Initialize the inquirer with node index.js. Complete all of the prompts to have your README generated in the generated_README directory. 
+  
+## License
+This application is covered under the MIT
+For more information about the MIT license, please visit the following link:
 
-## Acceptance Criteria
+  https://choosealicense.com/licenses/mit
 
-- GIVEN a command-line application that accepts user input
-
-- WHEN I am prompted for information about my application repository
-- THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-
-- WHEN I enter my project title
-- THEN this is displayed as the title of the README
-
-- WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-- THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-
-- WHEN I choose a license for my application from a list of options
-- THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-
-- WHEN I enter my GitHub username
-- THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-
-- WHEN I enter my email address
-- THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-
-- WHEN I click on the links in the Table of Contents
-- THEN I am taken to the corresponding section of the README
+  ## Questions?
+  If you have any questions, please reach out!
+  
+GitHub: https://github.com/JTruehitt

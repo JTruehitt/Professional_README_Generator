@@ -2,10 +2,10 @@
   ![Badge for license type](https://img.shields.io/badge/license-MIT-green)
 
 
-  # asdf
+  # Professional README Generator
 
   ## Description
-   asdf
+   This is a simple Command Line Interface that transforms user input into an organized and professional markdown file. This is a great way to save time on each project without sacrificing the quality of the README file. The application was built with node.js, and utilizes the inquirer npm package. 
   
   ## Table of Contents
   
@@ -26,13 +26,13 @@
   * [Questions](#questions)
   
   ## Installation
-  asdf
+  npm install
   
   ## Usage
-  asdf
+  Initialize the inquirer with node index.js. Complete all of the prompts to have your README generated in the generated_README directory. 
   
   ## Credits
-  asdf
+  Placeholder text to show this works. 
   
 ## License
 This application is covered under the MIT
@@ -41,17 +41,17 @@ For more information about the MIT license, please visit the following link:
   https://choosealicense.com/licenses/mit
 
   ## Features
-  asdf
+  Placeholder text to show this works. 
   
   ## Contributing
-  asdf
+  Placeholder text to show this works. 
   
   ## Testing
-  asdf
+  Placeholder text to show this works. 
   
   ## Questions?
   If you have any questions, please reach out!
   
-GitHub: https://github.com/asdf
+GitHub: https://github.com/JTruehitt
 
-Email: [asdf](mailto:asdf)
+Email: [jontruehitt@gmail.com](mailto:jontruehitt@gmail.com)
