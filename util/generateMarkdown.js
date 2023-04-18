@@ -67,11 +67,11 @@ function generateMarkdown(data) {
   `;
   if (data.contributors.length !== 0)
     tableOfContents += `
-  * [Contributors](#contributors)
+  * [Contributing](#contributing)
   `;
   if (data.tests.length !== 0)
     tableOfContents += `
-  * [Tests](#tests)
+  * [Testing](#testing)
   `;
   tableOfContents += `
   * [Questions](#questions)
