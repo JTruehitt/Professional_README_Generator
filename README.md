@@ -8,7 +8,7 @@
    This is a simple Command Line Interface that transforms user input into an organized and professional markdown file. This is a great way to save time on each project without sacrificing the quality of the README file. The application was built with node.js, and utilizes the inquirer npm package. 
 
   ## Link to Video Walkthrough
-  https://drive.google.com/file/d/1iJqJT7H8f6pTTdT095PL1A8qpK2woPbX/view
+  https://drive.google.com/file/d/1Oh-2sSOl0nTFIRUhfujP_UY6EG6BqKVc/view?usp=sharing
   
   ## Table of Contents
   
