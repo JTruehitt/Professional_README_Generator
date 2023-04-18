@@ -13,19 +13,20 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if (license === "None") return "";
   else {
+    console.log(license)
     const licenseMap = new Map([
       ["GNU AGPLv3", "agpl-3.0"],
       ["GNU GPLv3", "gpl-3.0"],
       ["GNU LGPLv3", "lgpl-3.0"],
-      ["Mozilla Public License 2.0", "mpl-2.0"],
-      ["Apache License 2.0", "apache-2.0"],
-      ["MIT License", "mit"],
-      ["Boost Software License 1.0", "bsl-1.0"],
+      ["Mozilla Public 2.0", "mpl-2.0"],
+      ["Apache 2.0", "apache-2.0"],
+      ["MIT", "mit"],
+      ["Boost Software 1.0", "bsl-1.0"],
       ["The Unlicense", "unlicense"],
     ]);
     license = licenseMap.get(license);
   }
-  return `https://choosealicense.come/licenses/${license}`;
+  return `https://choosealicense.com/licenses/${license.toString()}`;
 }
 
 // TODO: Create a function that returns the license section of README

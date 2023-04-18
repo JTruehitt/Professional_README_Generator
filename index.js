@@ -94,8 +94,6 @@ const questions = [
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, (err) => {
     if (err) console.log(err);
-    console.log(fileName);
-    console.log(data);
   });
 }
 
