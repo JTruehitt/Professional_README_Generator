@@ -31,7 +31,8 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if (license === "None") return `This application is not covered under any license.`;
+  if (license === "None")
+    return `This application is not covered under any license.`;
   else {
     let link = renderLicenseLink(license);
     return `This application is covered under the ${license}\nFor more information about the ${license} license, please visit the following link:\n
@@ -71,6 +72,9 @@ function generateMarkdown(data) {
   if (data.tests.length !== 0)
     tableOfContents += `
   * [Tests](#tests)
+  `;
+  tableOfContents += `
+  * [Questions](#questions)
   `;
 
   let markdown = `
@@ -132,7 +136,8 @@ ${renderLicenseSection(data.license)}
   \nGitHub: https://github.com/${data.github}
 `;
 
-  if (data.email.length !== 0) markdown += `Email: ${data.email}`;
+  if (data.email.length !== 0)
+    markdown += `\nEmail: [${data.email}](mailto:${data.email})`;
 
   return markdown;
 }

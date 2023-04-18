@@ -2,24 +2,38 @@
   
 
 
-  # asdf
+  # ff
 
   ## Description
-   ads
+   ff
   
   ## Table of Contents
   
   * [Installation](#installation)
   
+  * [Usage](#usage)
+  
+  * [Credits](#credits)
+  
   * [License](#license)
   
+  * [Questions](#questions)
+  
   ## Installation
-  asd
+  f
+  
+  ## Usage
+  f
+  
+  ## Credits
+  f
   
 ## License
-None
+This application is not covered under any license.
 
   ## Questions?
   If you have any questions, please reach out!
   
-GitHub: https://github.com/JTruehitt
+GitHub: https://github.com/JTrue
+
+Email: [jtrue@gmail.com](mailto:jtrue@gmail.com)
