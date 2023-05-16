@@ -44,7 +44,7 @@ const questions = [
   {
     name: "license",
     type: "list",
-    message: "What type of licence?",
+    message: "What type of license?",
     choices: [
       "None",
       "GNU AGPLv3",

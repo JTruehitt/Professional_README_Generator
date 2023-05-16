@@ -2,10 +2,10 @@
   ![Badge for license type](https://img.shields.io/badge/license-MIT-green)
 
 
-  # Professional README Generator
+  # E-Commerce Back-End
 
   ## Description
-   This is a simple Command Line Interface that transforms user input into an organized and professional markdown file. This is a great way to save time on each project without sacrificing the quality of the README file. The application was built with node.js, and utilizes the inquirer npm package. 
+   In this app I was challenged to code the back end for an e-commerce database consisting of categories, products, tags, and product tags. This app uses the sequelize ORM to interact with SQL and perform CRUD actions on the database.
   
   ## Table of Contents
   
@@ -13,26 +13,15 @@
   
   * [Usage](#usage)
   
-  * [Credits](#credits)
-  
   * [License](#license)
-  
-  * [Features](#features)
-  
-  * [Contributing](#contributing)
-  
-  * [Testing](#testing)
   
   * [Questions](#questions)
   
   ## Installation
-  npm install
+  clone the github repo and then npm i from the root directory. 
   
   ## Usage
-  Initialize the inquirer with node index.js. Complete all of the prompts to have your README generated in the generated_README directory. 
-  
-  ## Credits
-  Placeholder text to show this works. 
+  use npm start to kick the server on. From there, you can use an app such as Insomnia to send GET, POST, PUT, and DELETE requests to the defined routes in order to interact with the database. 
   
 ## License
 This application is covered under the MIT
@@ -40,15 +29,6 @@ For more information about the MIT license, please visit the following link:
 
   https://choosealicense.com/licenses/mit
 
-  ## Features
-  Placeholder text to show this works. 
-  
-  ## Contributing
-  Placeholder text to show this works. 
-  
-  ## Testing
-  Placeholder text to show this works. 
-  
   ## Questions?
   If you have any questions, please reach out!
   
